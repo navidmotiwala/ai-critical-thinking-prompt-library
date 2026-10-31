@@ -1,6 +1,6 @@
 # AI Critical Thinking Prompt Library
 
-Practical prompts for challenging assumptions, detecting flaws, checking evidence, and improving AI responses.
+A collection of 88 practical prompts for challenging assumptions, detecting flaws, checking evidence, evaluating decisions, and improving AI responses. All prompts are hosted in this repository.
 
 ## Prompt categories
 
@@ -12,6 +12,12 @@ Practical prompts for challenging assumptions, detecting flaws, checking evidenc
 | [Adversarial review](prompts/adversarial-review.md) | Stress-test ideas, plans, and decisions |
 | [Response quality](prompts/response-quality.md) | Get concise, natural, clear answers |
 | [Universal master prompt](prompts/master-review.md) | Run a complete critical review |
+| [Logic and assumptions](prompts/logic-and-assumptions.md) | Test reasoning, causality, and hidden premises |
+| [Bias and framing](prompts/bias-and-framing.md) | Find distorted framing and biased evidence |
+| [Hallucination and source audit](prompts/hallucination-and-source-audit.md) | Check citations, dates, quotes, and provenance |
+| [Decision and risk](prompts/decision-and-risk.md) | Evaluate tradeoffs, failure modes, and uncertainty |
+| [Writing and response controls](prompts/writing-and-response-controls.md) | Improve precision, tone, and brevity |
+| [Advanced review combinations](prompts/advanced-review-combinations.md) | Apply multiple review methods together |
 
 ## How to use
 

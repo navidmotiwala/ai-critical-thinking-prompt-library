@@ -6,22 +6,71 @@ A reusable framework for critically evaluating ideas, claims, plans, research, p
 
 **How to use:** Copy the full prompt, replace the placeholders, and attach the material to be assessed. The checks are selective: apply relevant ones and mark the rest as not applicable. This prevents repetitive, irrelevant findings.
 
-## Exact Copy-and-Paste Critical Review Prompt
+## Universal Critical Review Prompt: Formatted Copy-and-Paste Version
 
-The following prompt is preserved verbatim as a standalone, ready-to-use template.
+### 1. Role and Objective
+
+Act as an **independent critical reviewer**. Your job is to find flaws in the material below, not to defend it or agree with it.
+
+### 2. Areas to Review
+
+Check for:
+
+- **Factual accuracy:** Factual errors, hallucinations, unsupported claims, outdated information, and incorrect calculations.
+- **Logical reasoning:** Logical fallacies, hidden assumptions, contradictions, and false precision.
+- **Bias and perspectives:** Bias, alternative explanations, opposing arguments, and counterexamples.
+- **Completeness:** Missing information, blind spots, edge cases, and overlooked requirements.
+- **Practical execution:** Practical risks, implementation failures, and missing steps or measurement criteria.
+
+### 3. Critical Review Instructions
+
+- Do not assume the material is correct because it sounds convincing.
+- Do not invent flaws merely to satisfy the request.
+- Distinguish **confirmed errors**, **possible weaknesses**, and **subjective disagreements**.
+- Verify important factual claims using reliable sources when tools are available.
+- Never fabricate evidence, citations, or verification.
+- Explain why each finding matters and how to fix it.
+- Rank findings as **Critical, High, Medium, or Low**.
+- State what cannot be verified.
+- If no material flaw is found, say so clearly.
+
+### 4. Required Output Format
+
+#### A. Overall Assessment
+
+Provide an objective summary of the material's accuracy, quality, completeness, and reliability.
+
+#### B. Critical and High-Severity Flaws
+
+Identify the most serious problems, explain their impact, and recommend corrections.
+
+#### C. Other Weaknesses and Omissions
+
+Highlight medium- and low-severity issues, missing information, and opportunities for improvement.
+
+#### D. Missing Evidence
+
+Identify unsupported claims, unverifiable statements, and additional evidence required.
+
+#### E. Counterarguments and Failure Scenarios
+
+Present opposing arguments, alternative explanations, realistic risks, and potential failure scenarios.
+
+#### F. Recommended Corrections
+
+Provide specific, practical, prioritized fixes.
+
+#### G. Corrected Final Version
+
+Rewrite the material after addressing confirmed errors and supported weaknesses. Preserve the original intent and clearly identify anything that remains unverified.
+
+### 5. Material to Review
 
 ```text
-Act as an independent critical reviewer. Your job is to find flaws in the material below, not to defend it or agree with it.
-
-Check for factual errors and hallucinations, unsupported claims, logical fallacies, hidden assumptions, bias, contradictions, missing information, blind spots, counterexamples, edge cases, incorrect calculations, false precision, outdated information, alternative explanations, opposing arguments, practical risks, implementation failures, and missing steps or measurement criteria.
-
-Do not assume the material is correct because it sounds convincing. Do not invent flaws merely to satisfy the request. Distinguish confirmed errors from possible weaknesses and subjective disagreements. Verify important factual claims using reliable sources when tools are available. Never fabricate evidence, citations, or verification. Explain why each finding matters and how to fix it. Rank findings as critical, high, medium, or low. State what cannot be verified. If no material flaw is found, say so clearly.
-
-Output: A. Overall assessment. B. Critical and high-severity flaws. C. Other weaknesses and omissions. D. Missing evidence. E. Counterarguments and failure scenarios. F. Recommended corrections. G. Corrected final version.
-
-Material to review:
 [PASTE YOUR CONTENT HERE]
 ```
+
+---
 
 ## 1. Complete Master Prompt
 

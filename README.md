@@ -11,7 +11,7 @@ A practical collection of prompts for independent thinking, flaw detection, evid
 - **Need sources, figures, or citations checked?** Start with [Evidence Verification](prompts/evidence-verification.md).
 - **Need a complete critical review?** Use the [Universal Master Prompt](prompts/master-review.md).
 
-## All 22 Categories
+## All 22 Core Categories
 
 | No. | Category | What it covers |
 | :-- | :-- | :-- |
@@ -37,6 +37,13 @@ A practical collection of prompts for independent thinking, flaw detection, evid
 | 20 | [Legal, Policy, and Compliance](prompts/legal-policy-and-compliance.md) | Identify policy ambiguities and matters requiring professional review. |
 | 21 | [Interviews and Communication](prompts/interview-negotiation-and-communication.md) | Critique interviews, reports, negotiations, and stakeholder communication. |
 | 22 | [Epistemic Humility and Self-Correction](prompts/epistemic-humility-and-metacognition.md) | Manage uncertainty and revise conclusions when evidence changes. |
+
+## Additional Practical Guides
+
+| Guide | What it provides |
+| :-- | :-- |
+| [Practical Response Command Library](prompts/practical-response-command-library.md) | 30 short prompt modifiers and 8 ready-to-use combinations |
+| [Review Workflows and Templates](prompts/review-workflows-and-templates.md) | 5 end-to-end review workflows and a standard findings table |
 
 ## How to Use a Prompt
 

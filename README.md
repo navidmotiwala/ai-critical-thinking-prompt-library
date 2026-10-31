@@ -1,66 +1,94 @@
 # AI Critical Thinking Prompt Library
 
-A collection of 189 practical prompts for challenging assumptions, detecting flaws, checking evidence, evaluating decisions, and improving AI responses. All prompts are hosted in this repository.
+A practical collection of prompts for independent thinking, flaw detection, evidence verification, decision-making, and better AI answers.
 
-## Prompt categories
+**All prompts are published as Markdown files inside this GitHub repository.** No ChatGPT links are required to read or use them.
 
-| Topic | Purpose |
-| --- | --- |
-| [Anti-sycophancy](prompts/anti-sycophancy.md) | Stop automatic agreement and flattery |
-| [Flaw detection](prompts/flaw-detection.md) | Find weaknesses, contradictions, and risks |
-| [Evidence verification](prompts/evidence-verification.md) | Check claims, sources, figures, and uncertainty |
-| [Adversarial review](prompts/adversarial-review.md) | Stress-test ideas, plans, and decisions |
-| [Response quality](prompts/response-quality.md) | Get concise, natural, clear answers |
-| [Universal master prompt](prompts/master-review.md) | Run a complete critical review |
-| [Logic and assumptions](prompts/logic-and-assumptions.md) | Test reasoning, causality, and hidden premises |
-| [Bias and framing](prompts/bias-and-framing.md) | Find distorted framing and biased evidence |
-| [Hallucination and source audit](prompts/hallucination-and-source-audit.md) | Check citations, dates, quotes, and provenance |
-| [Decision and risk](prompts/decision-and-risk.md) | Evaluate tradeoffs, failure modes, and uncertainty |
-| [Writing and response controls](prompts/writing-and-response-controls.md) | Improve precision, tone, and brevity |
-| [Advanced review combinations](prompts/advanced-review-combinations.md) | Apply multiple review methods together |
+## Quick Start
 
-| [Scientific method and experiments](prompts/scientific-method-and-experiments.md) | Design falsifiable tests and evaluate research |
-| [Statistics and data analysis](prompts/statistics-and-data-analysis.md) | Find measurement, aggregation, and inference errors |
-| [Security, privacy and safety](prompts/security-privacy-and-safety.md) | Review defensive controls and misuse risks |
-| [Software, code and architecture](prompts/software-code-and-architecture.md) | Test implementation and design weaknesses |
-| [AI models, agents and evaluation](prompts/ai-models-agents-and-evaluation.md) | Audit LLM systems and agent behavior |
-| [Product, market and business](prompts/product-market-and-business.md) | Stress-test growth, pricing, and product decisions |
-| [SEO, AEO, GEO and content](prompts/seo-aeo-geo-and-content.md) | Review organic search and AI visibility claims |
-| [Legal, policy and compliance](prompts/legal-policy-and-compliance.md) | Identify questions requiring expert validation |
-| [Interview, negotiation and communication](prompts/interview-negotiation-and-communication.md) | Challenge professional claims and arguments |
-| [Epistemic humility and metacognition](prompts/epistemic-humility-and-metacognition.md) | Calibrate uncertainty and correct mistakes |
+- **Need AI to disagree rather than flatter you?** Start with [Anti-Sycophancy](prompts/anti-sycophancy.md).
+- **Need an idea, product, or plan challenged?** Start with [Flaw Detection](prompts/flaw-detection.md).
+- **Need sources, figures, or citations checked?** Start with [Evidence Verification](prompts/evidence-verification.md).
+- **Need a complete critical review?** Use the [Universal Master Prompt](prompts/master-review.md).
 
-## How to use
+## All 22 Categories
 
-1. Open a category and copy a prompt.
-2. Replace bracketed placeholders with your information.
-3. Supply the relevant document, data, or context.
-4. Independently verify consequential claims.
+| No. | Category | What it covers |
+| :-- | :-- | :-- |
+| 01 | [Anti-Sycophancy and Disagreement](prompts/anti-sycophancy.md) | Question leading prompts, seek genuine disagreement, and avoid automatic validation. |
+| 02 | [Flaw Detection and Vulnerability Reviews](prompts/flaw-detection.md) | Find contradictions, missing requirements, failures, and corrective tests. |
+| 03 | [Evidence and Fact Checking](prompts/evidence-verification.md) | Check claims, numerical reasoning, and source reliability. |
+| 04 | [Adversarial Review and Red Teaming](prompts/adversarial-review.md) | Stress-test arguments, products, decisions, and counterarguments. |
+| 05 | [Response Quality and Style](prompts/response-quality.md) | Make responses direct, natural, and clear. |
+| 06 | [Universal Master Review](prompts/master-review.md) | Run a broad review using one reusable prompt. |
+| 07 | [Logic and Assumptions](prompts/logic-and-assumptions.md) | Find hidden premises, faulty inferences, and weak causal claims. |
+| 08 | [Bias and Framing](prompts/bias-and-framing.md) | Spot leading language, selection bias, and misleading framing. |
+| 09 | [Hallucinations and Source Audit](prompts/hallucination-and-source-audit.md) | Verify citations, entity names, dates, quotations, and unsupported specifics. |
+| 10 | [Decisions and Risk](prompts/decision-and-risk.md) | Challenge tradeoffs, assumptions, reversibility, and failure scenarios. |
+| 11 | [Writing and Response Controls](prompts/writing-and-response-controls.md) | Set concise language and editorial constraints. |
+| 12 | [Advanced Prompt Combinations](prompts/advanced-review-combinations.md) | Combine independent checks into structured review workflows. |
+| 13 | [Experiments and Scientific Methods](prompts/scientific-method-and-experiments.md) | Test hypotheses, confounding factors, replication, and measurement validity. |
+| 14 | [Statistics and Data Analysis](prompts/statistics-and-data-analysis.md) | Audit denominators, missingness, leakage, metrics, and forecasts. |
+| 15 | [Security, Privacy, and Safety](prompts/security-privacy-and-safety.md) | Assess defensive risks, data exposure, and abuse prevention. |
+| 16 | [Software and Architecture](prompts/software-code-and-architecture.md) | Review code, tests, migrations, APIs, and service reliability. |
+| 17 | [AI Models and Agents](prompts/ai-models-agents-and-evaluation.md) | Evaluate AI outputs, tool permissions, retrieval, and operational drift. |
+| 18 | [Product, Market, and Business](prompts/product-market-and-business.md) | Challenge market sizing, demand, pricing, and growth decisions. |
+| 19 | [SEO, AEO, GEO, and Content](prompts/seo-aeo-geo-and-content.md) | Audit search performance, site accessibility, and AI visibility claims. |
+| 20 | [Legal, Policy, and Compliance](prompts/legal-policy-and-compliance.md) | Identify policy ambiguities and matters requiring professional review. |
+| 21 | [Interviews and Communication](prompts/interview-negotiation-and-communication.md) | Critique interviews, reports, negotiations, and stakeholder communication. |
+| 22 | [Epistemic Humility and Self-Correction](prompts/epistemic-humility-and-metacognition.md) | Manage uncertainty and revise conclusions when evidence changes. |
 
-## Quality checklist
+## How to Use a Prompt
 
-Before relying on an output, ask:
+1. Open a category and copy the relevant prompt.
+2. Replace square-bracket placeholders with your actual material.
+3. Provide source data, constraints, and intended audience.
+4. Ask for a ranked list of findings, supporting evidence, fixes, and verification tests when relevant.
+5. Verify important claims independently. A prompt can improve scrutiny but cannot guarantee accuracy.
 
-1. Is each important claim backed by evidence or clearly marked as an assumption?
-2. Are suspected issues separated from verified defects?
-3. Are counterarguments fair and relevant rather than contrarian for effect?
-4. Are calculations, dates, definitions, and source links checked?
-5. Are the findings ranked by impact rather than verbosity?
-6. Does each recommendation include a way to test whether it works?
+### Example: Critical Review of a Proposal
 
-## Content provenance
+**Situation:** You are reviewing a new product launch plan.
 
-This library contains original, self-contained prompts published directly in this repository. The complete source conversations were not available for verbatim comparison. Additional original prompts can be incorporated after their text is provided.
+**Use:** [Flaw Detection, Failure Audit](prompts/flaw-detection.md)
 
-## Editorial standards
+**Provide:** Your plan, launch deadline, budget, assumptions, target users, and success measures.
 
-- No automatic agreement, invented citations, or unsupported certainty.
-- Separate facts, assumptions, and opinions.
-- Rank findings by evidence, impact, and urgency.
-- Avoid repetitive instructions, filler, emojis, and em dashes.
-- State limitations and test recommendations.
+**Check the answer for:** Direct evidence, risk priority, missing dependencies, and a realistic validation step for each finding.
 
-Prompts cannot guarantee accuracy or exhaustive flaw detection.
+### Example: Challenge an AI Answer
+
+**Situation:** An AI assistant agrees with your conclusion without citing any evidence.
+
+**Use:** [Anti-Sycophancy, Challenge My Preferred Answer](prompts/anti-sycophancy.md) and [Evidence Verification, Claim Ledger](prompts/evidence-verification.md).
+
+**Check the answer for:** Counterevidence, uncertainty, misleading assumptions, and unsupported claims.
+
+## Quality Control Checklist
+
+- Does the output clearly separate facts, assumptions, inferences, and opinions?
+- Does every material factual claim have appropriate support?
+- Are hypothetical weaknesses labeled as hypothetical rather than confirmed defects?
+- Does the answer identify the strongest meaningful objection rather than disagreeing for effect?
+- Are dates, names, calculations, and sources verified where needed?
+- Are findings ranked by business impact or actual risk?
+- Is each recommended fix testable?
+- Is the writing direct, free of repeated points, emojis, em dashes, and formulaic AI phrases?
+
+## Scope and Provenance
+
+This collection contains prompts authored and organized within this repository. It is **not a verified word-for-word archive** of the two original ChatGPT conversations. Full original conversation text was not available for a complete comparison, so no claim of complete source reproduction is made.
+
+The collection is designed to be self-contained. Its prompt content and navigation remain hosted on GitHub, without links to ChatGPT.
+
+## Editorial Principles
+
+- Independent reasoning over automatic agreement.
+- Evidence over persuasive language.
+- Strong counterarguments over superficial contrarianism.
+- Specific and prioritized findings over long generic lists.
+- Clear uncertainty over invented certainty.
+- Corrections that can be checked rather than vague recommendations.
 
 ## License
 

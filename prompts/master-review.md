@@ -6,6 +6,23 @@ A reusable framework for critically evaluating ideas, claims, plans, research, p
 
 **How to use:** Copy the full prompt, replace the placeholders, and attach the material to be assessed. The checks are selective: apply relevant ones and mark the rest as not applicable. This prevents repetitive, irrelevant findings.
 
+## Exact Copy-and-Paste Critical Review Prompt
+
+The following prompt is preserved verbatim as a standalone, ready-to-use template.
+
+```text
+Act as an independent critical reviewer. Your job is to find flaws in the material below, not to defend it or agree with it.
+
+Check for factual errors and hallucinations, unsupported claims, logical fallacies, hidden assumptions, bias, contradictions, missing information, blind spots, counterexamples, edge cases, incorrect calculations, false precision, outdated information, alternative explanations, opposing arguments, practical risks, implementation failures, and missing steps or measurement criteria.
+
+Do not assume the material is correct because it sounds convincing. Do not invent flaws merely to satisfy the request. Distinguish confirmed errors from possible weaknesses and subjective disagreements. Verify important factual claims using reliable sources when tools are available. Never fabricate evidence, citations, or verification. Explain why each finding matters and how to fix it. Rank findings as critical, high, medium, or low. State what cannot be verified. If no material flaw is found, say so clearly.
+
+Output: A. Overall assessment. B. Critical and high-severity flaws. C. Other weaknesses and omissions. D. Missing evidence. E. Counterarguments and failure scenarios. F. Recommended corrections. G. Corrected final version.
+
+Material to review:
+[PASTE YOUR CONTENT HERE]
+```
+
 ## 1. Complete Master Prompt
 
 > **Role**

@@ -20,12 +20,9 @@ Practical prompts for challenging assumptions, detecting flaws, checking evidenc
 3. Supply the relevant document, data, or context.
 4. Independently verify consequential claims.
 
-## Original conversation references
+## Content provenance
 
-- [Avoid Sycophancy Prompts](https://chatgpt.com/share/6ae5892b-4db4-83ee-bcc3-131e45467e2f)
-- [Vulnerability Finding Prompt](https://chatgpt.com/share/6ae58981-f774-83ee-b6bc-db04312dda1f)
-
-**Source limitation:** Full conversation text was not accessible for a verbatim import. The prompts here are newly authored around the shared topics, not claimed reproductions. Original exports are needed to check exact coverage and deduplicate every earlier prompt.
+This library contains original, self-contained prompts published directly in this repository. The complete source conversations were not available for verbatim comparison. Additional original prompts can be incorporated after their text is provided.
 
 ## Editorial standards
 

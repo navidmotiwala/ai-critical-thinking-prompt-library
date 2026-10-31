@@ -1,6 +1,6 @@
 # AI Critical Thinking Prompt Library
 
-A collection of 88 practical prompts for challenging assumptions, detecting flaws, checking evidence, evaluating decisions, and improving AI responses. All prompts are hosted in this repository.
+A collection of 188 practical prompts for challenging assumptions, detecting flaws, checking evidence, evaluating decisions, and improving AI responses. All prompts are hosted in this repository.
 
 ## Prompt categories
 
@@ -19,12 +19,34 @@ A collection of 88 practical prompts for challenging assumptions, detecting flaw
 | [Writing and response controls](prompts/writing-and-response-controls.md) | Improve precision, tone, and brevity |
 | [Advanced review combinations](prompts/advanced-review-combinations.md) | Apply multiple review methods together |
 
+| [Scientific method and experiments](prompts/scientific-method-and-experiments.md) | Design falsifiable tests and evaluate research |
+| [Statistics and data analysis](prompts/statistics-and-data-analysis.md) | Find measurement, aggregation, and inference errors |
+| [Security, privacy and safety](prompts/security-privacy-and-safety.md) | Review defensive controls and misuse risks |
+| [Software, code and architecture](prompts/software-code-and-architecture.md) | Test implementation and design weaknesses |
+| [AI models, agents and evaluation](prompts/ai-models-agents-and-evaluation.md) | Audit LLM systems and agent behavior |
+| [Product, market and business](prompts/product-market-and-business.md) | Stress-test growth, pricing, and product decisions |
+| [SEO, AEO, GEO and content](prompts/seo-aeo-geo-and-content.md) | Review organic search and AI visibility claims |
+| [Legal, policy and compliance](prompts/legal-policy-and-compliance.md) | Identify questions requiring expert validation |
+| [Interview, negotiation and communication](prompts/interview-negotiation-and-communication.md) | Challenge professional claims and arguments |
+| [Epistemic humility and metacognition](prompts/epistemic-humility-and-metacognition.md) | Calibrate uncertainty and correct mistakes |
+
 ## How to use
 
 1. Open a category and copy a prompt.
 2. Replace bracketed placeholders with your information.
 3. Supply the relevant document, data, or context.
 4. Independently verify consequential claims.
+
+## Quality checklist
+
+Before relying on an output, ask:
+
+1. Is each important claim backed by evidence or clearly marked as an assumption?
+2. Are suspected issues separated from verified defects?
+3. Are counterarguments fair and relevant rather than contrarian for effect?
+4. Are calculations, dates, definitions, and source links checked?
+5. Are the findings ranked by impact rather than verbosity?
+6. Does each recommendation include a way to test whether it works?
 
 ## Content provenance
 

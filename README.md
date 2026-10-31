@@ -1,6 +1,6 @@
 # AI Critical Thinking Prompt Library
 
-A collection of 188 practical prompts for challenging assumptions, detecting flaws, checking evidence, evaluating decisions, and improving AI responses. All prompts are hosted in this repository.
+A collection of 189 practical prompts for challenging assumptions, detecting flaws, checking evidence, evaluating decisions, and improving AI responses. All prompts are hosted in this repository.
 
 ## Prompt categories
 
